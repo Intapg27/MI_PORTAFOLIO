@@ -1,0 +1,187 @@
+@font-face{ /*así se vincula una fuente descargada*/
+	font-family: "Comic";
+	src: url("../fuentes/Comic Boys.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-image: url(../imagenes/principal.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+.boton a {
+    color: #F3EAEA;
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     font-family: 'Spicy Rice', cursive;
+    font-size: 15px;
+    font-weight: bold;
+	min-height: 2.5rem;
+	height: 100%;
+	background: linear-gradient(to bottom right, rgba(119,4,233,0.5),rgba(196,196,196,0.5));
+	box-sizing: border-box;
+
+}
+
+.titulo h2{
+	color: #F3EAEA;
+	font-family: 'Comic', cursive;
+	font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+ form{
+	color: #F3EAEA;
+	padding: 20px;
+	margin-left: 10px;
+	text-align: center;
+	font-family: 'Comic', cursive;
+	font-size: 25px;
+	border-radius: 10px;
+	border-color: #F3EAEA;
+}
+input{
+	margin-left: 50px;
+}
+
+
+}
+
+#name{
+	background-color: #F3EAEA;
+	border-radius: 5px;
+	font-family: "Comic", cursive;
+	box-shadow: 3px 3px 3px black;
+	width: 200px;
+	margin: 20px;
+	font-family: 'Comic', cursive;
+}
+
+#last {
+    background-color: #F3EAEA;
+    border-radius: 5px;
+    font-family: "Comic", cursive;
+    box-shadow: 3px 3px 3px black;
+    width: 200px;
+    margin: 20px;
+    font-family: 'Comic', cursive;
+}
+
+
+
+ p{
+	background: linear-gradient(to bottom right, rgba(228,100,100,0.5),rgba(196,196,196,0.5));
+	color: #F3EAEA;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Comic', cursive;
+	font-size: 35px;
+	border-radius: 10px;
+	border: 2px solid #7704E9;
+	margin-left: 200px;
+	width: 500px;
+
+}
+
+.container-fluid .casa{
+	background-color: rgba(0,0,0,0.5);
+	position: sticky;
+
+}
+
+/*.container-fluid .casa img{
+	margin-left: 100px;
+
+}*/
+
+.btn-block{
+	display: block;
+}
+
+#comoes{
+	background-image: url(../imagenes/comoes.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.cards input{
+	width: 100px;
+	justify-content: space-around;
+
+}
+
+.align-items-start {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+    justify-content: space-around;
+}
+
+.align-items-center{
+
+  justify-content: space-around;
+}
+
+.align-items-end{
+
+  justify-content: space-around;
+}
+
+
+.cards a{
+	width: 100px;
+	display: block;
+	background-color: rgba(196,196,196,0.5);
+	font-family: 'Comic', cursive;
+	color: #7704E9;
+	font-size: 25px;
+	margin: auto;
+	
+}
+
+.cards a:hover{
+	background-color: #7704E9;
+}
+
+.modal-header, .modal-body, .modal-footer{
+	 position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-image: url(../imagenes/comoes.jpg);
+    box-sizing: border-box;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#ok{
+	border-radius: 5px;
+	color: white;
+	padding: 20px;
+	max-width: 100%;
+	width: 100%;
+	max-height: 5rem;
+	min-height: 5rem;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+}
+

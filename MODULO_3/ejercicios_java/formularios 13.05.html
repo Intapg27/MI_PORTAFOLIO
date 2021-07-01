@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/formjs.css">
+	<title>form 13.05</title>
+</head>
+<body>
+<div class="caja">
+	<h2>Validemos información</h2>
+
+<form id="form" name="formulario" method="post" action= "url">
+
+    <div id="cor">
+
+    	<label for="correo"> Correo electrónico de contacto</label>
+    	<input type="texto" id="mail" name="email" placeholder="usuario@dominio.com">
+      
+    	<div class="feedback"></div>
+
+    </div>
+	
+    <div id="tel">
+    	<label for="telefono"> Número telefónico de contacto:</label>
+    	<input type="texto" id="telefono" name="tele">
+    	<div class="feedback"></div>
+    </div>
+ 
+    <div id="sol">
+    	<label for="tipoid"> Tipo de solicitud:</label>
+        <select name="tipo" id="tipoid">    
+		<option value="0">Seleccione una</option>
+		<option value="1">queja</option>
+		<option value="2">Tarjeta de Identidad (TI)</option>
+		<option value="3">Cédula de Ciudadania</option>
+        </select>
+        <div class="feedback"></div>
+    </div>
+
+    <div id="des">
+    	<label for="perfil"> Descripción</label>
+		<textarea rows="4" ></textarea>	
+		<div class="feedback"></div>
+    </div>
+
+    <div id="enviar">
+		<input type="submit" value="Enviar" />
+		<div class="feedback"></div>
+    </div>
+</form>
+</div>
+
+<!--<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/formjs.css">
+</head>
+<body>
+  <main>
+    <form class="caja" id="frmvalidacion" novalidate>
+      <h1> ¿Qué prefieres? </h1>
+      <label> Qué estación te gusta más? </label>
+      <select id="est">
+        <option value="0">elije una</option>
+        <option value="1"> Invierno</option>
+        <option value="2"> Verano</option>
+        <option value="3"> Primavera</option>
+      </select>
+
+      <div id="nombre">
+        <label>¿Cómo te llamas?</label>
+        <input type="text" name="nombre" id="name"  class="">
+        <div class="feedback"></div>
+      </div>
+
+      <div id="edad">
+        <label> ¿Cuántos años tienes?</label>
+        <input type="text" name="edad" id="edad1" class="">
+        <div class="feedback2"></div>
+      </div>
+
+      <div id="campoCor">
+        <label for="genero"> Género</label>
+          <input type="radio" name="gen" id="genero">Femenino
+          <input type="radio" name="gen" id="genero">Masculino
+        <div class="feedback"></div>
+      </div>
+      <div id="des">
+        <label for="perfil"> Descripción</label>
+        <textarea rows="4" ></textarea> 
+        <div class="feedback"></div>
+    </div>
+   </form>-->
+  </main>
+<script type="text/javascript" src="js/formu.js"></script>
+</body>
+</html>

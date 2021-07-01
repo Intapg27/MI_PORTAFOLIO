@@ -1,0 +1,62 @@
+body {
+    font-family: arial, helvetica;
+    background-image: url(../imagenes/fond.jpg);
+}
+.box {
+   
+    border:thin solid silver; 
+    background: red;
+}
+.box h1 {
+    margin: 0;
+    font-family: 'Caveat', cursive;
+}
+
+#info {
+    width:160px;
+    border:thin solid silver;
+    padding:.5em; 
+    position:fixed;
+}
+#info h1 {
+    margin: 0;
+}
+.red{
+    background: red;
+    }
+
+.green{
+    background: green;
+    }
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.gallery_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.ejercicios{
+    background-color: #9A2EFE;
+}
+
+.ebot{
+
+    align-content: space-between;
+}

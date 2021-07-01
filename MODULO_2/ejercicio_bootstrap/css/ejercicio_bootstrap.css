@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	   }
+
+.container-fluid {
+	padding: 0;
+}
+
+	   header{
+	   	padding: 20px;
+	   }
+
+	   .logo img {
+	   	max-width: 250px;
+	   }
+
+
+.btn-info {
+ color: #000000;
+  background-color: #7fffd4;
+  font-weight: bolder;
+}
+
+.btn-info :hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: #752995;
+}
+
+.btn-outline-info {
+	color:#752995;
+	border-color: #752995;
+	font-weight: bolder;
+}
+
+.btn-outline-info:hover {
+	color: #FFFFFF;
+	background-color: #752995;
+	border-color: #752995;
+}
+
+nav {
+	background-color: #752995;
+}
+
+.parte1 {
+	background-image: url(../imagenes/fondo.jpg);
+	padding: 20px 20px; 
+	box-shadow: 0px 0px 10px black; 
+	height: 100%;
+	margin-left: 10px;
+}
+.boton1{
+  color: #FFFFFF;
+  font-weight: bolder;
+  border-color: #752995;
+}
+
+.parte2 {
+	background-color: #752995;
+	box-shadow: 0px 0px 10px black; 
+	text-align: center;
+	padding: 20px;
+	height: 100%;
+}
+
+.parte2 img {
+border-radius: 100%;
+border: 5px solid #FFFFFF;
+padding: 0px;
+margin: 0px;
+}
+
+.parte2 h1 {
+color: #FFFFFF;
+}
+
+.titulo h1 {
+	color: #752995;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.servicios h1 {
+	color: #752995;
+	text-align: center;
+
+}
+
+.titulo hr{
+	color: black;
+	width: 10px;
+}
+
+
+section .card {
+	border: 0;
+}
+
+.card h5{
+	color: #752995;
+	text-align: center;
+}
+
+.card img{
+	width: 150px;
+	margin: auto;
+}
+
+.card p{
+	color: #000000;
+	text-align: center;
+}
+
+.pfinal .card{
+	padding: 0px;
+	background-color: rgba(117,41,149, 0.5); 
+	
+}
+
+section #info{
+	background-image: url(../../images/fondo.jpg);
+}
+
+
+.pfinal {
+	text-align: center;
+}
+
+.pfinal i{
+	font-weight: 10px;
+	margin: auto;
+	color: #FFFFFF;
+}
+
+.pfinal .card p {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+
+
+
+/*.cajainfo{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}*/
+
+
+
+
+
+
+
+
+

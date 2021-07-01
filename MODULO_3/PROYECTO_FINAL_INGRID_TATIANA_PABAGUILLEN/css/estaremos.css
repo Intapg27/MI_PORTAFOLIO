@@ -1,0 +1,130 @@
+@font-face{ /*así se vincula una fuente descargada*/
+	font-family: "Comic";
+	src: url("../fuentes/Comic Boys.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-image: url(../imagenes/principal.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+.boton a {
+   color: #F3EAEA;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Spicy Rice', cursive;
+    padding: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    min-height: 2.5rem;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(119,4,233,0.5),rgba(196,196,196,0.5));
+    box-sizing: border-box;
+}
+
+.titulo h2{
+	color: #F3EAEA;
+	font-family: 'Comic', cursive;
+	font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ form{
+	width: 600px;
+	height: 200px;
+	color: #F3EAEA;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Comic', cursive;
+	font-size: 25px;
+	border-radius: 10px;
+	border-color: #F3EAEA;
+}
+
+p{
+    background: linear-gradient(to bottom right, rgba(228,100,100,0.3),rgba(196,196,196,0.5));
+	color: #F3EAEA;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Comic', cursive;
+	font-size: 25px;
+	border-radius: 10px;
+	border: 2px solid #7704E9;
+	width: 500px;
+
+
+}
+
+select{
+	background-color: #F3EAEA;
+	border-radius: 5px;
+	font-family: "Comic", cursive;
+	box-shadow: 3px 3px 3px black;
+	width: 150px;
+	margin: 20px;
+	font-family: 'Comic', cursive;
+}
+
+.container-fluid .casa{
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+.btn-block{
+	display: block;
+}
+
+#comoes{
+	background-image: url(../imagenes/comoes.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.cards input{
+	width: 100px;
+	margin: 60px;
+
+}
+
+.cards a{
+	width: 100px;
+	display: block;
+	background-color: rgba(196,196,196,0.5);
+	font-family: 'Comic', cursive;
+	color: #7704E9;
+	font-size: 25px;
+	
+}
+
+.cards a:hover{
+	background-color: #7704E9;
+}
+
+.modal-header, .modal-body, .modal-footer{
+	 position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-image: url(../imagenes/comoes.jpg);
+    box-sizing: border-box;
+}
+
+#formulario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
